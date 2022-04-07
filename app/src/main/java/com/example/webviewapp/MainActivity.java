@@ -5,6 +5,7 @@ import android.util.Log;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.webkit.WebView;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
@@ -17,10 +18,12 @@ public class MainActivity extends AppCompatActivity {
     WebView myWebView;
 
     public void showExternalWebPage(){
+        myWebView.loadUrl("https://scio.his.se");
         // TODO: Add your code for showing external web page here
     }
 
     public void showInternalWebPage(){
+        myWebView.loadUrl("about.html");
         // TODO: Add your code for showing internal web page here
     }
 
