@@ -18,12 +18,12 @@ public class MainActivity extends AppCompatActivity {
     WebView myWebView;
 
     public void showExternalWebPage(){
-        myWebView.loadUrl("https://scio.his.se");
+        myWebView.loadUrl("https://wwwlab.iit.his.se/b21willu/App-prototyp/app-prototyp.html");
         // TODO: Add your code for showing external web page here
     }
 
     public void showInternalWebPage(){
-        myWebView.loadUrl("about.html");
+        myWebView.loadUrl("file:///about.html");
         // TODO: Add your code for showing internal web page here
     }
 
@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
         */
 
         // Instantiate WebView
-        WebView myWebView = (WebView) findViewById(R.id.my_webview);
+        myWebView = findViewById(R.id.my_webview);
 
         // Enable Javascript to our WebViewClient
         myWebView.getSettings().setJavaScriptEnabled(true);
