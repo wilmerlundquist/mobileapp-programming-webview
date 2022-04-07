@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void showInternalWebPage(){
-        myWebView.loadUrl("file:///about.html");
+        myWebView.loadUrl("file:///android_asset/about.html");
         // TODO: Add your code for showing internal web page here
     }
 
