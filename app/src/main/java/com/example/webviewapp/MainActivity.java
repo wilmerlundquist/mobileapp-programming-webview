@@ -14,6 +14,8 @@ import androidx.appcompat.widget.Toolbar;
 
 public class MainActivity extends AppCompatActivity {
 
+    WebView myWebView;
+
     public void showExternalWebPage(){
         // TODO: Add your code for showing external web page here
     }
@@ -53,6 +55,9 @@ public class MainActivity extends AppCompatActivity {
            showing your App. One (1) screenshot showing your internal web page and
            one (1) screenshot showing your external web page.
         */
+
+        // Instantiate WebView
+        WebView myWebView = (WebView) findViewById(R.id.my_webview);
 
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
