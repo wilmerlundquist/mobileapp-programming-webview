@@ -59,6 +59,9 @@ public class MainActivity extends AppCompatActivity {
         // Instantiate WebView
         WebView myWebView = (WebView) findViewById(R.id.my_webview);
 
+        // Enable Javascript to our WebViewClient
+        myWebView.getSettings().setJavaScriptEnabled(true);
+
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
