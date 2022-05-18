@@ -85,8 +85,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-![](android.1.png)
-bild på externalwebpage
+![](Screenshot.png)
+Bild på dropdownmeny samt appens startsida.
 
-![](android.2.png)
-bild på dropdownmeny, samt appens startsida
+Gick inte att ta en screenshot ifrån min external page. Misstänkter att det har o göra med att wwwlab.iit.his.se inte funkar längre.
